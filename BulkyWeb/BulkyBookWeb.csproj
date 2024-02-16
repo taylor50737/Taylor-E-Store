@@ -7,13 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Views\Home\NewFolder\**" />
+    <Compile Remove="Areas\Customer\Views\Home\NewFolder\**" />
     <Compile Remove="Views\NewFolder1\**" />
-    <Content Remove="Views\Home\NewFolder\**" />
+    <Content Remove="Areas\Customer\Views\Home\NewFolder\**" />
     <Content Remove="Views\NewFolder1\**" />
-    <EmbeddedResource Remove="Views\Home\NewFolder\**" />
+    <EmbeddedResource Remove="Areas\Customer\Views\Home\NewFolder\**" />
     <EmbeddedResource Remove="Views\NewFolder1\**" />
-    <None Remove="Views\Home\NewFolder\**" />
+    <None Remove="Areas\Customer\Views\Home\NewFolder\**" />
     <None Remove="Views\NewFolder1\**" />
   </ItemGroup>
 
@@ -24,12 +24,16 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.1" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Bulky.DataAccess\BulkyBook.DataAccess.csproj" />
     <ProjectReference Include="..\Bulky.Models\BulkyBook.Models.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
   </ItemGroup>
 
 </Project>
