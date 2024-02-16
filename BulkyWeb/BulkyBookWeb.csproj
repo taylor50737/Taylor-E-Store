@@ -32,8 +32,4 @@
     <ProjectReference Include="..\Bulky.Models\BulkyBook.Models.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
 </Project>
