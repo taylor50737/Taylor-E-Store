@@ -32,4 +32,8 @@
     <ProjectReference Include="..\Bulky.Models\BulkyBook.Models.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\images\product\" />
+  </ItemGroup>
+
 </Project>
