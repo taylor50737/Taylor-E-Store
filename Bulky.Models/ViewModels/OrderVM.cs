@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace BulkyBook.Models.ViewModels
 {
-    internal class OrderVM
+    public class OrderVM
     {
         public OrderHeader OrderHeader { get; set; }
-        public IEnumerable<OrderDetail> OrderDetails { get; set; }
+        public IEnumerable<OrderDetail> OrderDetail { get; set; }
     }
 }
