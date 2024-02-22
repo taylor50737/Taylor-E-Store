@@ -1,4 +1,4 @@
-# ASP.NET Core & EntityFramework Core Based Startup Template
+# Taylor E-Store
 
 This is an e-commerce application bulit with ASP.NET Core MVC, Entity Framework Core and ASP.NET Core Identity.
 
